@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the deployment and configuration of an Amazon RDS MySQL database instance on AWS. The objective was to create a development database environment, configure connectivity, and prepare the database for application use.
+This project demonstrates the deployment and configuration of an Amazon RDS MySQL database instance on AWS. The objective was to create a development database environment, configure networking and security settings, and establish database connectivity.
 
 ---
 
@@ -18,7 +18,8 @@ A startup wants to migrate its local MySQL database to AWS. As a cloud engineer,
 - MySQL Community Edition
 - Amazon VPC
 - Security Groups
-- Amazon EC2 (for database connectivity testing)
+- Amazon EC2
+- MySQL Client
 
 ---
 
@@ -36,18 +37,42 @@ A startup wants to migrate its local MySQL database to AWS. As a cloud engineer,
 
 ---
 
-## Step 1: RDS Instance Configuration
+## Step 1: Select MySQL Engine and Database Configuration
 
-Configured the RDS MySQL instance using Full Configuration mode. Selected the Free Tier template, configured credentials, selected the db.t3.micro instance type, allocated 20 GB SSD storage, and enabled public access.
+Configured the MySQL engine, selected Full Configuration mode, and chose the Free Tier template for the RDS instance.
 
-![RDS Setup Configuration]
+![RDS Configuration](screenshots/01-rds-setup-configuration.jpg)
+
+---
+
+## Step 2: Configure Credentials
+
+Configured the database identifier and administrator credentials required for database access.
+
+![Credentials Configuration](screenshots/02-rds-setup-configuration.jpg)
+
+---
+
+## Step 3: Configure Instance and Storage
+
+Selected the db.t3.micro instance type and allocated 20 GB General Purpose SSD (gp3) storage.
+
+![Instance and Storage Configuration](screenshots/03-rds-setup-configuration.jpg)
+
+---
+
+## Step 4: Configure Connectivity
+
+Enabled public access, selected the appropriate VPC, and configured networking settings for the RDS instance.
+
+![Connectivity Configuration](screenshots/04-rds-setup-configuration.jpg)
 
 ---
 
 ## Project Status
 
 - [x] RDS Instance Configuration Completed
-- [ ] Database Available Verification
+- [ ] Database Availability Verification
 - [ ] Security Group Configuration
 - [ ] Endpoint Retrieval
 - [ ] EC2 Connectivity Testing
@@ -56,6 +81,20 @@ Configured the RDS MySQL instance using Full Configuration mode. Selected the Fr
 
 ---
 
+## Next Steps
+
+The following tasks will be completed in the next phase of the project:
+
+1. Verify RDS instance availability.
+2. Configure inbound security group rules for MySQL (Port 3306).
+3. Retrieve the RDS endpoint.
+4. Launch and connect an EC2 instance.
+5. Connect to the RDS instance using MySQL client.
+6. Create a database schema named `dev_db`.
+7. Verify successful database creation.
+
+---
+
 ## Outcome
 
-Successfully configured an Amazon RDS MySQL instance for development purposes. Additional steps include connectivity verification, database creation, and testing.
+Successfully configured an Amazon RDS MySQL instance for development and testing purposes using AWS RDS. Additional configuration and connectivity testing will be performed to complete the deployment.

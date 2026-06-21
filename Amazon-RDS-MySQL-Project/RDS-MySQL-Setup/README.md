@@ -41,7 +41,7 @@ A startup wants to migrate its local MySQL database to AWS. As a cloud engineer,
 
 Configured the MySQL engine, selected Full Configuration mode, and chose the Free Tier template for the RDS instance.
 
-![RDS Configuration](screenshots/01-rds-MySQL-setup-configuration)
+![RDS Configuration](../screenshots/01-rds-MySQL-setup-configuration.jpg)
 
 ---
 

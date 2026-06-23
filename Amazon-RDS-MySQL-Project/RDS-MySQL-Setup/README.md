@@ -41,7 +41,10 @@ A startup wants to migrate its local MySQL database to AWS. As a cloud engineer,
 
 Configured the MySQL engine, selected Full Configuration mode, and chose the Free Tier template for the RDS instance.
 
-![RDS Configuration](../screenshots/01-rds-MySQL-setup-configuration.jpg)
+![RDS MySQL Configuration](screenshots/01-rds-MySQL-setup-configuration.jpg)
+![RDS Settings Configuration](screenshots/02-rds-settings-setup-configuration)
+![RDS Storage and Instance Configuration](03-rds-storage&instance-setup-configuration)
+![RDS Connectivity setup configuration](04-rds-connectivity-setup-configuration)
 
 ---
 
@@ -49,7 +52,9 @@ Configured the MySQL engine, selected Full Configuration mode, and chose the Fre
 
 Configured the database identifier and administrator credentials required for database access.
 
-![Credentials Configuration](screenshots/02-rds-setup-configuration.jpg)
+![](05-rds-available)
+![](06-rds-endpoint-connectivity&security)
+
 
 ---
 
@@ -57,15 +62,23 @@ Configured the database identifier and administrator credentials required for da
 
 Selected the db.t3.micro instance type and allocated 20 GB General Purpose SSD (gp3) storage.
 
-![Instance and Storage Configuration](screenshots/03-rds-setup-configuration.jpg)
+![](907-rds-configuration)
 
 ---
+
+## Step 5:
+![](08-EC2-launch-instance)
+![](09-EC2-launch-instance-type)
+![](10-EC2-launch-instance-network-and-storage-settings)
+![](11-EC2-instance-running)
+![](12-EC2-instance-connect)
 
 ## Step 4: Configure Connectivity
 
 Enabled public access, selected the appropriate VPC, and configured networking settings for the RDS instance.
 
-![Connectivity Configuration](screenshots/04-rds-setup-configuration.jpg)
+![](13-EC2-instance-mariadb-install)
+![](14-EC2-instance-DB-creation)
 
 ---
 

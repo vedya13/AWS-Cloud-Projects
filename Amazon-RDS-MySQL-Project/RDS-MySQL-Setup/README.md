@@ -48,7 +48,7 @@ Configured additional database settings including deployment options and availab
 
 Configured instance specifications and storage allocation.
 
-![RDS Storage and Instance Configuration](screenshots/03-rds-storage-instance-setup-configuration.jpg)
+![RDS Storage and Instance Configuration](screenshots/03-rds-storage&instance-setup-configuration.jpg)
 
 Configured networking, VPC selection, and public accessibility options.
 
@@ -64,7 +64,7 @@ After deployment, verified that the RDS instance was successfully created and av
 
 Retrieved the database endpoint and reviewed connectivity and security configurations.
 
-![RDS Endpoint and Security Configuration](screenshots/06-rds-endpoint-connectivity-security.jpg)
+![RDS Endpoint and Security Configuration](screenshots/06-rds-endpoint-connectivity&security.jpg)
 
 ---
 

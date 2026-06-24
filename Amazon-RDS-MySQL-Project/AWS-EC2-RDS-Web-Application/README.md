@@ -148,25 +148,25 @@ $conn->close();
 
 3. Security Group Configuration
 
-![Security-Group-Configuration-1](03-security-group-configuration-1.jpg)
+![Security-Group-Configuration-1](screenshots/03-security-group-configuration-1.jpg)
 
-![Security-Group-Configuration-2](04-security-group-configuration-2.jpg)
+![Security-Group-Configuration-2](screenshots/04-security-group-configuration-2.jpg)
 
 4. MySQL Data
 
-![MySQL-Data-1](05-mysql-data-1.jpg)
+![MySQL-Data-1](screenshots/05-mysql-data-1.jpg)
 
-![MySQL-Data-2](06-mysql-data-2.jpg)
+![MySQL-Data-2](screenshots/06-mysql-data-2.jpg)
 
-![MySQL-Data-3](07-mysql-data-3.jpg)
+![MySQL-Data-3](screenshots/07-mysql-data-3.jpg)
 
 5. PHP Application Output
 
-![PHP-Application-Output-1](08-php-application-output-1.jpg)
+![PHP-Application-Output-1](screenshots/08-php-application-output-1.jpg)
 
-![PHP-Application-Output-2](09-php-application-output-2.jpg)
+![PHP-Application-Output-2](screenshots/09-php-application-output-2.jpg)
 
-![PHP-Application-Output-3](10-php-application-output-3.jpg)
+![PHP-Application-Output-3](screenshots/10-php-application-output-3.jpg)
 
 ## Learning Outcomes
 * EC2 deployment and management

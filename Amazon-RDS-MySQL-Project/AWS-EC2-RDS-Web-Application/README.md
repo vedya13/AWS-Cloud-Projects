@@ -14,6 +14,7 @@ PHP
 MySQL
 
 ## Architecture
+```text
 +----------------+
 | User Browser   |
 +----------------+
@@ -29,6 +30,7 @@ MySQL
 | RDS MySQL      |
 | Private Access |
 +----------------+
+```
 
 ## Steps Performed
 1. EC2 Setup

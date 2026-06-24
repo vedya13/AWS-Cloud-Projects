@@ -51,14 +51,12 @@ MySQL
 4. Database Configuration
 * Created database:
 CREATE DATABASE studentdb;
-
 * Created table:
 CREATE TABLE students (
 id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(50),
 course VARCHAR(50)
 );
-
 * Inserted sample data:
 INSERT INTO students(name,course)
 VALUES

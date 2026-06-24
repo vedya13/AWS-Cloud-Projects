@@ -49,20 +49,26 @@ MySQL
 * Allowed MySQL port 3306 from EC2 Security Group to RDS
 
 4. Database Configuration
-* Created database:
+**Created Database**
+```sql
 CREATE DATABASE studentdb;
-* Created table:
+```
+**Created Table**
+```sql
 CREATE TABLE students (
-id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(50),
-course VARCHAR(50)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    course VARCHAR(50)
 );
-* Inserted sample data:
-INSERT INTO students(name,course)
+```
+**Inserted Sample Data**
+```sql
+INSERT INTO students(name, course)
 VALUES
-('Vedant','DevOps'),
-('Rahul','AWS'),
-('Amit','Linux');
+('Vedant', 'DevOps'),
+('Rahul', 'AWS'),
+('Amit', 'Linux');
+```
 
 5. Application Deployment
 Developed a PHP script that:

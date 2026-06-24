@@ -138,3 +138,4 @@ $conn->close();
 ```
 
 ## Screenshots
+1. ![EC2 Instance Running](screenshots/01-ec2-instance-running.jpg)

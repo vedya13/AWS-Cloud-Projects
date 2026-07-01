@@ -113,9 +113,7 @@ Verify that all tables and records are successfully restored.
 
 ### Manual Snapshot
 
-```
-screenshots/manual-snapshot.png
-```
+![snapshot-creation]("screenshots/02-rds-snapshot-creation.jpg")
 
 ### Restored Database
 

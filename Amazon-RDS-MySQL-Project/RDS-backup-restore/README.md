@@ -113,19 +113,19 @@ Verify that all tables and records are successfully restored.
 
 ### Manual Snapshot
 
-![manual-snapshot]("screenshots/02-rds-snapshot-creation.jpg")
+![Manual Snapshot Creation](screenshots/02-rds-snapshot-creation.jpg)
+
+![Manual Snapshot Deletion](screenshots/03-rds-snapshot-deletion.jpg)
 
 ### Restored Database
 
-```
-screenshots/restored-db.png
-```
+![Restored Database](screenshots/04-rds-database-restoration.jpg)
 
 ### Data Verification
 
-```
-screenshots/query-output.png
-```
+![Data Verification 1](screenshots/05-rds-restored-data1.jpg)
+
+![Data Verification 2](screenshots/06-rds-restored-data2.jpg)
 
 ## Learning Outcomes
 

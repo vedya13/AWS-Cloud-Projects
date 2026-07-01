@@ -109,7 +109,7 @@ Verify that all tables and records are successfully restored.
 
 ### Backup Configuration
 
-![backup-config]("screenshots/01-rds-backup-setup.jpg")
+![backup-setup]("screenshots/01-rds-backup-setup.jpg")
 
 ### Manual Snapshot
 

@@ -175,3 +175,7 @@ $conn->close();
 * Private database access
 * PHP to MySQL connectivity
 * AWS networking fundamentals
+
+## Author
+
+** Vedant Pathak **

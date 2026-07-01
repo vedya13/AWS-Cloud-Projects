@@ -109,11 +109,11 @@ Verify that all tables and records are successfully restored.
 
 ### Backup Configuration
 
-![backup-setup]("screenshots/01-rds-backup-setup.jpg")
+![backup-configuration]("screenshots/01-rds-backup-setup.jpg")
 
 ### Manual Snapshot
 
-![snapshot-creation]("screenshots/02-rds-snapshot-creation.jpg")
+![manual-snapshot]("screenshots/02-rds-snapshot-creation.jpg")
 
 ### Restored Database
 
